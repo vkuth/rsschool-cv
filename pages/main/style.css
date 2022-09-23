@@ -1,0 +1,60 @@
+.watch_online{
+  width: 100%;
+  height: 780px;
+  background:#283035;
+  position: absolute;
+  top:0;
+  left:0;
+  z-index: -1;
+}
+.giant_panda{
+  all: inherit;
+  background-image: url(/assets/images/Giant\ Panda.png);
+  background-size: 100%;
+}
+.watch_circle{
+  position: absolute;
+  width: 465px;
+  height: 465px;
+  left: calc(50% - 465px/2 + 239.5px);
+  top: 92px;
+  background: linear-gradient(113.96deg, #F9804B 1.49%, #FE9013 101.44%);
+  border-radius: 240px;
+}
+.watch_text{
+  width: 500px;
+  font-family: 'Roboto';
+  font-weight: 700;
+  font-size: 106px;
+  line-height: 82px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #FFFFFF;
+  margin: 74px 0 0 73px ;
+  /* margin-top: 74px;
+  margin-left: 73px; */
+}
+.wacth_button{
+  color:#fff;
+  position: absolute;
+  top:626px;
+  left: calc(50% - 298px/2 + 332px);
+  width: 298px;
+  height: 38px;
+  text-align: center;
+  text-decoration: none;
+  background:linear-gradient(113.96deg, #F9804B 1.49%, #FE9013 101.44%);
+  border-radius:25px;
+  padding-top: 16px;
+  font-family: 'Roboto';
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 22px;
+  text-transform: uppercase;
+}
+.wacth_button:hover{
+  background: #E47209
+}
+.wacth_button:active{
+  background: #4B9200;
+}
