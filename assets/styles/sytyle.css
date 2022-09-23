@@ -1,0 +1,59 @@
+body{
+  margin: 0;
+}
+header{
+  height: 80px;
+  background: #000000;
+}
+.header{
+  display: flex;
+  
+  justify-content: center;
+}
+.head{
+  width: 1160px;
+  display: flex;
+  justify-content: space-between;
+}
+.locate{
+  pointer-events: none;
+  background:linear-gradient(113.96deg, #F9804B 1.49%, #FE9013 101.44%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.logoNav{
+  display: flex;
+  align-items:center
+}
+.logo{
+  width: 82px;
+  height: 52px;
+}
+.navbar{
+  color: #fff;
+  display: flex;
+  padding: 0;
+  margin-left: 63px;
+  min-width: 427px;
+  align-items: center;
+}
+.nav,
+.figma{
+  color:#fff;
+  font-family: 'Roboto';
+  text-decoration: none;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  margin-right: 58px;
+  line-height: 140%;
+}
+.nav:hover,
+.figma:hover{
+  background:linear-gradient(113.96deg, #F9804B 1.49%, #FE9013 101.44%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.figma{
+  margin: 29px 0;
+}
