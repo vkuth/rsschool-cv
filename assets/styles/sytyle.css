@@ -4,6 +4,8 @@ body{
 header{
   height: 80px;
   background: #000000;
+  position: relative;
+  z-index: 30;
 }
 .header{
   display: flex;

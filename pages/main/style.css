@@ -5,11 +5,11 @@
   position: absolute;
   top:0;
   left:0;
-  z-index: -1;
+  z-index: 0;
 }
 .giant_panda{
   all: inherit;
-  background-image: url(/assets/images/Giant\ Panda.png);
+  background-image: url(../../assets/images/Giant\ Panda.png);
   background-size: 100%;
 }
 .watch_circle{
@@ -52,11 +52,19 @@
   line-height: 22px;
   text-transform: uppercase;
 }
-.wacth_button:hover{
-  background: #E47209
+.wacth_button:hover,
+.pets_left:hover,
+.pets_right:hover,
+.pets_favorite_btn:hover{
+  background: #E47209;
+  cursor: pointer;  
 }
-.wacth_button:active{
+.wacth_button:active,
+.pets_left:active,
+.pets_right:active,
+.pets_favorite_btn:active{
   background: #4B9200;
+  cursor: pointer;
 }
 .leaves{
   position: absolute;
@@ -107,6 +115,7 @@
   display: flex;
   justify-content: center;
   margin-top: 180px;
+  margin-bottom: 80px;
 }
 .pets_right,
 .pets_left{
@@ -114,11 +123,17 @@
   height: 40px;
   padding-top:21px ;
   border-radius: 31px;
-  margin-top: 436px;
+  margin-top: 406px;
   color:#fff;
   text-align: center;
   text-decoration: none;
   background:linear-gradient(113.96deg, #F9804B 1.49%, #FE9013 101.44%);
+}
+.pets_right{
+  margin-left:20px;
+}
+.pets_left{
+  margin-right: 20px;
 }
 .wraper{
   width: 1160px;
@@ -128,16 +143,35 @@
   grid-column-gap: 30px;
   grid-row-gap: 20px;
 }
+.round_gradient{
+  background: linear-gradient(113.96deg, #F9804B 1.49%, #FE9013 101.44%);
+  height: 428px;
+  border-radius:5px;
+  width: 368px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 .wraper_item{
   height: 426px;
   font-family: 'Roboto';
   font-style: normal;
-  border: 2px solid transparent;
-  border-image: linear-gradient(#F9804B , #FE9013 );
-  border-image-slice: 1;
+  border-radius:5px;
+  background:#fff;
+  overflow: hidden;
 }
-.wraper_item img{
-  z-index: -1;
+.wraper_item:hover .wraper_foto{
+  transition: 1s;
+  transform: scale(1.028);
+}
+.wraper_item:hover .wraper_text{
+  background:#00000066;
+  color:#fff;
+  transition:1s;
+}
+.wraper_foto{
+  border-top-right-radius: 5px;
+  border-top-left-radius: 5px;
 }
 .wraper_item h2,
 .wraper_item p{
@@ -155,7 +189,30 @@
   line-height: 18px;
 }
 .wraper_text{
-  margin: 0 16px 0 13px;
+  padding: 8px 16px 8px 13px;
   display: flex;
+  position: relative;
   justify-content: space-between;
+}
+.pets_favorite{
+
+  display: flex;
+  justify-content: center;
+}
+.pets_favorite_btn{
+  text-transform: uppercase;
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 2px;
+  text-align: center;
+  color:#fff;
+  background:linear-gradient(113.96deg, #F9804B 1.49%, #FE9013 101.44%);
+  height: 54px;
+  width: 298px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 25px;
 }
