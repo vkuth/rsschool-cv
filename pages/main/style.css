@@ -55,14 +55,16 @@
 .wacth_button:hover,
 .pets_left:hover,
 .pets_right:hover,
-.pets_favorite_btn:hover{
+.pets_favorite_btn:hover,
+.feed_btn:hover{
   background: #E47209;
   cursor: pointer;  
 }
 .wacth_button:active,
 .pets_left:active,
 .pets_right:active,
-.pets_favorite_btn:active{
+.pets_favorite_btn:active,
+.feed_btn:active{
   background: #4B9200;
   cursor: pointer;
 }
@@ -202,6 +204,136 @@
   justify-content: center;
 }
 .pets_favorite_btn{
+  text-transform: uppercase;
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 2px;
+  text-align: center;
+  color:#fff;
+  background:linear-gradient(113.96deg, #F9804B 1.49%, #FE9013 101.44%);
+  height: 54px;
+  width: 298px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 25px;
+}
+.strelitzia{
+  position: absolute;
+  top:2431px;
+  right: 0;
+}
+.palm{
+  position: absolute;
+  top:2246px;
+  left: 0;
+}
+.pick_n_feed{
+  width: 100%;
+  height: 1004px;
+  background:linear-gradient(315.75deg, rgba(254, 210, 144, 0.7) 30.06%, #FEBDAB 100.95%, rgba(254, 210, 144, 0.7) 106.36%), linear-gradient(315.75deg, rgba(254, 189, 171, 0.74) 30.06%, rgba(243, 169, 248, 0.66) 50.74%, #E0D8F0 80.49%, #EAF7FE 127.9%, #EAF7FE 149.54%), linear-gradient(315.75deg, rgba(254, 189, 171, 0.74) 30.06%, rgba(243, 169, 248, 0.66) 50.74%, #E0D8F0 80.49%, #EAF7FE 127.9%, #EAF7FE 149.54%);
+  margin-top: 100px;
+  display: flex;justify-content: center;align-items: center;
+}
+.pnf_menu{
+  width: 1160px;
+  height: 835px;
+  background:rgba(253, 253, 255, 0.52);
+  backdrop-filter: blur(2px);
+  border-radius: 20px;
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+}
+.zagolovok{
+  font-size: 48px;
+  line-height: 58px;
+  color:#FE9013;
+  text-align: center;
+  margin-bottom: 30px;
+  margin-top: 41px;
+}
+.stroka1{
+  margin-left: 99px;
+  font-size: 24px;
+  margin-top: 0;
+  line-height: 29px;
+  color: #333B41;
+  margin-bottom: 40px;
+}
+.stroka2{
+  font-weight: 700;
+  font-size: 16px;
+  margin-top: 0;
+  line-height: 21px;
+  color: #333B41;
+  margin-left: 99px;
+  margin-bottom: 10px;
+}
+.stroka3{
+  font-size: 16px;
+  line-height: 21px;
+  color: #333B41;
+  margin-left: 99px;
+  margin-top: 0;
+  margin-right: 198px;
+}
+.support{
+  color:#333B41;
+  text-decoration: underline #FE9013;
+}
+.zagolovok2{
+  font-size: 36px;
+  line-height: 47px;
+  color: #333B41;
+  text-align: center;
+  margin-top: 60px;
+  margin-bottom: 40px;
+}
+.instruction{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.instructionIcons{
+  width: 168px;
+  height: 168px;
+  background:#fff;
+  border-radius:5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.gradient{
+  background: linear-gradient(113.96deg, #F9804B 1.49%, #FE9013 101.44%);
+  height: 170px;
+  border-radius:5px;
+  width: 170px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.cardText{
+  margin-top: 30px;
+  width: 168px;
+  font-size: 16px;
+  line-height: 22px;
+  color: #333B41;
+  margin-bottom: 0;
+  margin-top: 30px;
+}
+.arrow{
+  padding: 0 30px 70px 30px;
+}
+.feed{
+  display: flex;
+  justify-content: center;
+  margin-top: 60px;
+}
+.feed_btn{
+  text-decoration: none;
   text-transform: uppercase;
   font-family: 'Roboto';
   font-style: normal;
