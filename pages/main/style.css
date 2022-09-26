@@ -163,11 +163,13 @@
 .wraper_item:hover .wraper_foto{
   transition: 1s;
   transform: scale(1.028);
+  cursor: pointer;
 }
 .wraper_item:hover .wraper_text{
   background:#00000066;
   color:#fff;
   transition:1s;
+  cursor: pointer;
 }
 .wraper_foto{
   border-top-right-radius: 5px;
