@@ -1,3 +1,8 @@
+@font-face {
+	font-family: 'Roboto ligth'; 
+	src: local('ofont.ru_Roboto Light'),
+		url(../fonts/ofont.ru_Roboto\ Light.ttf); 
+}
 body{
   margin: 0;
 }
