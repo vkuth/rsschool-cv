@@ -1,8 +1,3 @@
-@font-face {
-	font-family: 'Roboto ligth'; 
-	src: local('ofont.ru_Roboto Light'),
-		url(../fonts/ofont.ru_Roboto\ Light.ttf); 
-}
 body{
   margin: 0;
 }
@@ -63,4 +58,131 @@ header{
 }
 .figma{
   margin: 29px 0;
+}
+footer{
+  width: 100%;
+  height: 443px;
+  background:#111115;
+  display: flex;
+  justify-content: center;
+}
+.footer{
+  width: 1160px;
+}
+.footer1{
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 36px;
+}
+.foot{
+  position: relative;
+  top: 41px;
+  left: 0;
+}
+.subscribe{
+  margin: 0;
+  top:40px;
+  color: #fff;
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 29px;
+}
+.subscribe p{
+  margin-bottom: 14px;
+  width: 376px;
+}
+.email{
+  display: flex;
+  justify-content: space-between;
+}
+.donate_btn:hover{
+  background: #E47209;
+  cursor: pointer;  
+}
+.donate_btn:active{
+  background: #4B9200;
+  cursor: pointer;
+}
+.footer_gradient{
+  background: linear-gradient(113.96deg, #F9804B 1.49%, #FE9013 101.44%);
+  border-radius:2px;
+  width: 228px;
+  height: 42px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.email_text{
+  width: 222px;
+  height: 38px;
+  border: none;
+  background:#111115;
+  border-radius:2px
+}
+.email_submit{
+  color: #4B9200;
+  border:1px solid #4B9200;
+  border-radius:5px;
+  background:#F1F3F2;
+  width: 129px;
+}
+.email_submit:hover{
+  cursor: pointer;
+}
+.donate_btn{
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 22px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #FFFFFF;
+  padding: 16px 50px;
+  margin-top: 68px;
+  background: linear-gradient(113.96deg, #F9804B 1.49%, #FE9013 101.44%);
+  border-radius: 5px;
+  text-decoration: none;
+}
+.footer2{
+  display: flex;
+  justify-content: space-between;
+  margin-top: 44px;
+}
+.social{
+  display: flex;
+  flex-direction: column;
+}
+.soc{
+  color:#fff;
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 22px;
+  margin-bottom: 10px;
+  display: flex;
+  align-items: center;
+}
+.soc img{
+  margin-right: 12px;
+}
+.navfoot{
+  color: #fff;
+  display: flex;
+  padding: 0;
+  margin-left: 63px;
+  min-width: 427px;
+  align-items: flex-end;
+}
+.autors{
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 100;
+  font-size: 16px;
+  line-height: 21px;
+  color: #FFFFFF;
+  align-self: end;
 }

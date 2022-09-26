@@ -57,9 +57,8 @@
 .pets_right:hover,
 .pets_favorite_btn:hover,
 .feed_btn:hover,
-.feedback:hover,
-input[type=range]::-moz-range-thumb:hover,
-input[type=range]::-webkit-slider-thumb:hover{
+.feedback_background:hover
+{
   background: #E47209;
   cursor: pointer;  
 }
@@ -68,9 +67,7 @@ input[type=range]::-webkit-slider-thumb:hover{
 .pets_right:active,
 .pets_favorite_btn:active,
 .feed_btn:active,
-.feedback:active,
-input[type=range]::-moz-range-thumb:active,
-input[type=range]::-webkit-slider-thumb:active{
+.feedback_background:active{
   background: #4B9200;
   cursor: pointer;
 }
@@ -490,12 +487,25 @@ input[type=range]::-moz-range-thumb {
   color: #FFFFFF;
 }
 .feedback{
-  width: 298px;
-  height: 54px;
-  background: linear-gradient(113.96deg, #F9804B 1.49%, #FE9013 101.44%);
-  border-radius: 5px;
-  margin-left: 220px;
-  margin-top: 31px;
   display: flex;
   justify-content: center;align-items: center;
+}
+.feedbackpanel{
+  width: 1160px;
+}
+.feedback_background{
+  background: linear-gradient(113.96deg, #F9804B 1.49%, #FE9013 101.44%);
+  border-radius: 5px;
+  margin-top: 31px;
+  width: 298px;
+  height: 54px;
+  display: flex;align-items: center;justify-content: center;
+}
+footer{
+  margin-top: 180px;
+}
+.green_leaf{
+  position: absolute;
+  top: 4328px;
+  right: 0;
 }
