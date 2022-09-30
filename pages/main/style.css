@@ -509,3 +509,173 @@ footer{
   top: 4328px;
   right: 0;
 }
+@media(max-width:1000px){
+  .watch_online{
+    height: 584px;
+  }
+  .giant_panda{
+    width: 100%;
+    height: 100%;
+    background-size: 122%;
+  }
+  .watch_circle{
+    left: calc(50% - 367px/2 + 139.5px);
+    width: 367px;
+    height: 367px;
+  }
+  .watch_text{
+    width: 400px;
+    height: 320px;
+    left: calc(50% - 400.25px/2 + 214.12px);
+    line-height: 64px;
+    font-size: 85px;
+  }
+  .wacth_button{
+    left: calc(50% - 298px/2 + 214px);
+    top: 506px;
+  }
+  .leaves{
+    display: none;
+  }
+  .backstage_block{
+    margin-top: 684px;
+  }
+  .backstage{
+    width: 940px;
+  }
+  .backstage_image{
+    width: 455px;
+    overflow: hidden;
+  }
+  .backstage_image img{
+    position: relative;
+    right: 80px;
+  }
+  .backstage_text{
+    width: 454px;
+  }
+  .backstage_text h2{
+    line-height: 58px;
+    font-size: 48px;
+    font-weight: 400;
+  }
+  .backstage_text p{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 21px;
+  }
+  .backstage_text h3{
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 29px;
+  }
+  .backstage_text p.litle_one{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+  }
+  .Pets_block{
+    margin-top: 142px;
+  }
+  .wraper{
+    width: 940px;
+    grid-template-columns: repeat(3,292px);
+  }
+  .round_gradient{
+    height: 354px;
+    width: 294px;
+  }
+  .wraper_item{
+    height: 352px;
+  }
+  .wraper_foto{
+    width: 100%;
+  }
+  .pets_left{
+    position: relative;
+    left: 410px;
+    bottom: 39px;
+    min-width: 62px;
+    height: 40px;
+  }
+  .pets_right{
+    position: relative;
+    right: 410px;
+    bottom: 39px;
+    min-width: 62px;
+    height: 40px;
+  }
+  .strelitzia{
+    top: 2167px;
+    transform: scale(0.655) translate(96px, 72px);
+  }
+  .palm{
+    top: 1982px;
+    transform: scale(0.44) translate(-186px, 292px);
+  }
+  .pnf_menu{
+    width: 940px;
+    height: 876px;
+  }
+  .zagolovok{
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 58px
+  }
+  .stroka1{
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 29px;
+    margin-left: 49px;
+  }
+  .stroka2{
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 21px;
+    margin-left: 49px;
+    width: 846px;
+  }
+  .stroka3{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 21px;
+    margin-left: 49px;
+    width: 846px;
+  }
+  .zagolovok2{
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 47px;
+  }
+  .testimonials{
+    margin-top: 100px;
+  }
+  .testim_block{
+    max-width: 1000px;
+  }
+  .testim_cards:first-child{
+    margin-left: 30px;
+  }
+  .rainbow_gradient{
+    width: 293px;
+  }
+  .test_card{
+    width: 289px;
+  }
+  .testim_block .testim_cards:last-child{
+    display: none;
+  }
+  .rainbow_gradient_input{
+    width: 390px;
+  }
+  input[type=range]{
+    width: 388px;
+  }
+  .feedbackpanel{
+    width: 940px;
+  }
+  .green_leaf{
+    top: 4019px;
+    transform: scale(0.9) translate(14px, 13px);
+  }
+}
