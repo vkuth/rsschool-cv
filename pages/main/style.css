@@ -541,7 +541,7 @@ footer{
     display: none;
   }
   .backstage_block{
-    margin-top: 684px;
+    margin-top: 127px;
   }
   .backstage{
     width: 940px;
@@ -615,11 +615,11 @@ footer{
     height: 40px;
   }
   .strelitzia{
-    top: 2167px;
+    top: 2098px;
     transform: scale(0.655) translate(96px, 72px);
   }
   .palm{
-    top: 1982px;
+    top: 1914px;
     transform: scale(0.44) translate(-186px, 292px);
   }
   .pnf_menu{
@@ -687,7 +687,7 @@ footer{
     display: none;
   }
   .green_leaf{
-    top: 4019px;
+    top: 3954px;
     transform: scale(0.9) translate(14px, 13px);
   }
 }
