@@ -891,4 +891,9 @@ footer{
    footer{
     margin-top: 100px;
   }
+  .mal{
+    position: absolute;
+    right: 0;
+    top: 3333px;
+  }
 }

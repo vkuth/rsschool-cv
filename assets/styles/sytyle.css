@@ -331,9 +331,6 @@ footer {
   }
   .mal{
     display: unset;
-    position: absolute;
-    right: 0;
-    top: 3333px;
   }
   .mal a{
     margin-bottom: 20px;
