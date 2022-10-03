@@ -31,6 +31,8 @@ header {
 }
 .menu{
   display: none;
+  position: fixed;
+  top: 0;
 }
 .logoNav {
   display: flex;
@@ -97,6 +99,9 @@ footer {
   font-weight: 400;
   font-size: 24px;
   line-height: 29px;
+}
+.b{
+  display: none;
 }
 .subscribe p {
   margin-bottom: 14px;
@@ -291,6 +296,8 @@ footer {
   }
   .menu.active {
     transform: translateX(0);
+    position: fixed;
+    top: 0;
   }
   .active .logoNav{
     display: flex;
@@ -331,9 +338,6 @@ footer {
   }
   .mal{
     display: unset;
-    position: absolute;
-    right: 0;
-    top: 3333px;
   }
   .mal a{
     margin-bottom: 20px;
@@ -360,5 +364,48 @@ footer {
     margin: 0;
     position: relative;
     top: 20px;
+  }
+}
+@media(max-width:320px){
+  header{
+    width: 320px;
+    height: 34px;
+  }
+  .head{
+    width: 300px;
+    height: 34px;
+  }
+  footer{
+    width: 320px;
+  }
+  .footer{
+    width: 300px;
+  }
+  .footer1{
+    justify-content: center;
+    margin-bottom: 86px;
+  }
+  .a{
+    display: none;
+  }
+  .b{
+    display: unset;
+    width: 128px;
+    height: 25px;
+  }
+  .mal{
+    left: 0;
+    display: flex;
+    flex-direction: initial;
+  }
+  .soc{
+    margin-right: 30px;
+  }
+  .autors{
+    top: 0;
+    margin-bottom: 30px;
+  }
+  .navfoot{
+    height: 20px;
   }
 }

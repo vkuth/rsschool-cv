@@ -7,6 +7,9 @@
   left:0;
   z-index: 0;
 }
+.leaves_fixik{
+  display: none;
+}
 .giant_panda{
   all: inherit;
   background-image: url(../../assets/images/Giant\ Panda.png);
@@ -601,6 +604,9 @@ footer{
   .arrow2{
     display: none;
   }
+  .malek{
+    display: none;
+  }
   .pets_right{
     position: relative;
     right: 410px;
@@ -890,5 +896,158 @@ footer{
   }
    footer{
     margin-top: 100px;
+  }
+  .mal{
+    position: absolute;
+    right: 0;
+    top: 3333px;
+  }
+}
+@media(max-width:320px){
+  .watch_online{
+    height: 221px;
+  }
+  .giant_panda{
+    background-size: 150%;
+  }
+  .watch_circle{
+    width: 119px;
+    height: 119px;
+  }
+  .watch_text{
+    width: 128px;
+    height: 102px;
+    font-size: 28px;
+    line-height: 21px;
+    margin: 18px 0 0 18px;
+  }
+  .wacth_button{
+    left: calc(50% - 298px/2);
+    top: 241px;
+  }
+  .leaves_litle{
+    display: none;
+  }
+  .leaves_fixik{
+    display: unset;
+    position: absolute;
+    right: 0;
+    top: 269px;
+  }
+  .backstage_block{
+    margin-top: 321px;
+  }
+  .backstage{
+    width: 300px;
+  }
+  .backstage_text{
+    width: 300px;
+  }
+  .backstage_text h2{
+    font-size: 24px;
+    line-height: 29px;
+  }
+  .backstage_text p{
+    margin-bottom: 20px;
+  }
+  .backstage_text h3{
+    margin-bottom: 10px;
+  }
+  .backstage_text p.litle_one{
+    width: 300px;
+  }
+  .pets_left,.pets_right{
+    display: none;
+  }
+  .Pets_block{
+    margin-top: 40px;
+    height:1388px;
+    margin-bottom: 20px;
+  }
+  .wraper{
+    grid-template-columns: 285px;
+    width: 300px;
+  }
+  .nemalek{
+    display: none;
+  }
+  .malek{
+    display: unset;
+  }
+  .strelitzia{
+    top: 2188px;
+    transform: scale(1) translate(0, 0);
+  }
+  .palm{
+    top: 1791px;
+    transform: scale(0.2) translate(-584px, 915px);
+  }
+  .pick_n_feed{
+    margin-top: 60px;
+    height: 1120px;
+  }
+  .pnf_menu{
+    width: 300px;
+    height: 1090px;
+  }
+  .zagolovok{
+    font-size: 24px;
+    line-height: 29px;
+  }
+  .stroka1{
+    font-size: 18px;
+    line-height: 22px;
+    width: 300px;
+    text-align: center;
+    margin-left: 0;
+  }
+  .stroka2,.stroka3{
+    display: none;
+  }
+  .zagolovok2{
+    font-size: 24px;
+    line-height: 29px;
+  }
+  .instruction{
+    flex-direction: column;
+    width: 300px;
+    justify-content: center;
+    margin-left: 66px;
+  }
+  .card{
+    margin-bottom: 29px;
+  }
+  .cardText{
+    margin-top: 10px;
+  }
+  .arrow2{
+    transform: rotate(84deg) scale(1.1);
+  }
+  .first{
+    top: 422px;
+    left: 207px;
+  }
+  .second{
+    top: 660px;
+    left: 207px;
+  }
+  .testim_block{
+    width: 320px;
+  }
+  .rainbow_gradient{
+    width: 300px;
+  }
+  .test_card{
+    width: 296px;
+  }
+  .coment{
+    width: 252px;
+  }
+  .green_leaf{
+    top: 3894px;
+    transform: scale(0.5) translate(58px, 49px);
+  }
+  .mal{
+    top: 4075px;
   }
 }
